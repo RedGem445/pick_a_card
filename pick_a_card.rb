@@ -5,7 +5,7 @@ suits = ['Diamonds', 'Hearts', 'Clubs', 'Spades'] # ã¡¨, —¥à¢¨, Šà�
 
 puts "How much do you need cards?"
 
-num = gets.STDIN.chomp
+num = gets.chomp.to_i
 
 
 num.times do
